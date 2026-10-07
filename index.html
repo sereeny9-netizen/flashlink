@@ -1,0 +1,333 @@
+
+<html lang="en">
+<head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashLink - Book Top Photographers & Studios</title>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- 👈 ربط ملف الـ CSS المخصص لموقع FlashLink -->
+    <link rel="stylesheet" href="styles-v2.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. HEADER & NAVIGATION BAR
+         Sitemap Links: #1, #2, #4, #6, #7, #8, #9
+         ========================================== -->
+    <header>
+        <div class="container nav-container">
+            <!-- Brand Logo (#1 Home) -->
+            <a class="brand-logo" href="#home">FlashLink</a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a class="active" href="#home"> Home</a>
+                <a href="#photographers"> Discover Photographers</a>
+                <a href="#studios">Studios</a>
+                <a href="#categories">Photography Types</a>
+                <a href="#packages"> Packages & Deals</a>
+            </nav>
+
+            <!-- Authentication Links (#8 & #9) -->
+            <div class="nav-auth-group">
+                <a class="btn-outline" href="#login"> Log In</a>
+                <a class="btn-primary" href="#signup">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==========================================
+             2. HERO SECTION & QUICK SEARCH FORM
+             ========================================== -->
+        <section id="home" class="container hero-section">
+            <p class="hero-badge">#1 Photography & Studio Booking Marketplace</p>
+            <h1 class="hero-title">Capture Life's Best Moments with Pro Photographers</h1>
+            <p class="hero-subtitle">Book verified professional photographers and studio spaces for portraits, weddings, commercial shoots, and private events.</p>
+
+            <!-- Search Filter Form -->
+            <form class="search-filter-card search-form-grid">
+                <div class="form-group">
+                    <label class="form-label" for="session-type">Session Type</label>
+                    <select class="form-select" id="session-type">
+                        <option>Portrait Photography</option>
+                        <option>Wedding & Engagement</option>
+                        <option>Studio Shoot Rental</option>
+                        <option>Events & Parties</option>
+                        <option>Commercial & Product</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="location">Location / City</label>
+                    <input class="form-input" type="text" id="location" placeholder="e.g. New York, LA">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="date">Preferred Date</label>
+                    <input class="form-input" type="date" id="date">
+                </div>
+
+                <div class="form-group">
+                    <a class="btn-primary" href="#photographers">Search Sessions</a>
+                </div>
+            </form>
+
+            <!-- Platform Stats -->
+            <div>
+                <div>
+                    <h3>1,200+</h3>
+                    <p>Pro Photographers</p>
+                </div>
+                <div>
+                    <h3>350+</h3>
+                    <p>Verified Studios</p>
+                </div>
+                <div>
+                    <h3>15,000+</h3>
+                    <p>Sessions Booked</p>
+                </div>
+                <div>
+                    <h3>4.9 ★</h3>
+                    <p>Client Rating</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             3. PHOTOGRAPHY TYPES (#6)
+             ========================================== -->
+        <section id="categories" class="section-dark section-padding">
+            <div class="container">
+            <div class="section-header">
+                <div><span class="section-subtitle">Category Grid</span>
+                <h2 class="section-title">6. Photography Types</h2></div>
+                <a class="btn-outline" href="#photographers">Explore All Categories</a>
+            </div><div class="card-grid">
+                <a class="flash-card category-card" href="#photographers">
+                    <h3 class="card-title">Portrait</h3>
+                    <p class="card-meta">Headshots & Fashion</p>
+                </a>
+                <a class="flash-card category-card" href="#photographers">
+                    <h3 class="card-title">Weddings</h3>
+                    <p class="card-meta">Couples & Events</p>
+                </a>
+                <a class="flash-card category-card" href="#studios">
+                    <h3 class="card-title">Studio Shoot</h3>
+                    <p class="card-meta">Indoor & Lighting</p>
+                </a>
+                <a class="flash-card category-card" href="#photographers">
+                    <h3 class="card-title">Events</h3>
+                    <p class="card-meta">Parties & Galas</p>
+                </a>
+                <a class="flash-card category-card" href="#photographers">
+                    <h3 class="card-title">Commercial</h3>
+                    <p class="card-meta">Products & Brands</p>
+                </a>
+                <a class="flash-card category-card" href="#photographers">
+                    <h3 class="card-title">Family</h3>
+                    <p class="card-meta">Maternity & Kids</p>
+                </a>
+            </div></div>
+        </section>
+
+        <!-- ==========================================
+             4. DISCOVER PHOTOGRAPHERS (#2 & #3)
+             ========================================== -->
+        <section id="photographers" class="container section-padding">
+            <div class="section-header">
+                <div><span class="section-subtitle">Featured Creators</span>
+                <h2 class="section-title">2. Discover Photographers</h2></div>
+                <a class="btn-outline" href="#photographers">View All Creators</a>
+            </div>
+
+            <div class="card-grid">
+                <!-- Photographer 1 (Link to #3 Profile Page) -->
+                <article class="flash-card">
+                    <img src="" alt="Sophia Martinez">
+                    <span class="badge badge-turquoise">Portrait & Fashion</span>
+                    <span class="badge">★ 4.9 (128)</span>
+                    <h3 class="card-title">Sophia Martinez</h3>
+                    <p class="card-meta">Manhattan, New York</p>
+                    <p class="card-price">Session Rate: $150 / hr</p>
+                    <a class="btn-primary" href="#photographer-profile">3. View Profile</a>
+                </article>
+
+                <!-- Photographer 2 -->
+                <article class="flash-card">
+                    <img src="" alt="David Miller">
+                    <span class="badge badge-turquoise">Wedding Specialist</span>
+                    <span class="badge">★ 5.0 (210)</span>
+                    <h3 class="card-title">David Miller</h3>
+                    <p class="card-meta">Brooklyn, New York</p>
+                    <p class="card-price">Session Rate: $220 / hr</p>
+                    <a class="btn-primary" href="#photographer-profile">3. View Profile</a>
+                </article>
+
+                <!-- Photographer 3 -->
+                <article class="flash-card">
+                    <img src="" alt="Elena Rostova">
+                    <span class="badge badge-turquoise">Commercial & Product</span>
+                    <span class="badge">★ 4.8 (95)</span>
+                    <h3 class="card-title">Elena Rostova</h3>
+                    <p class="card-meta">Queens, New York</p>
+                    <p class="card-price">Session Rate: $180 / hr</p>
+                    <a class="btn-primary" href="#photographer-profile">3. View Profile</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             5. STUDIOS (#4 & #5)
+             ========================================== -->
+        <section id="studios" class="section-dark section-padding">
+            <div class="container">
+            <div class="section-header">
+                <div><span class="section-subtitle">Production Spaces</span>
+                <h2 class="section-title">4. Explore Studios</h2></div>
+                <a class="btn-outline" href="#studios">Browse All Studios</a>
+            </div>
+
+            <div class="card-grid">
+                <!-- Studio 1 (Link to #5 Studio Details Page) -->
+                <article class="flash-card">
+                    <img src="" alt="Luminary Daylight Studio">
+                    <h3 class="card-title">Luminary Daylight Studio</h3>
+                    <span class="badge">★ 4.9</span>
+                    <p class="card-meta">1,500 sq ft • Cyclorama Wall • Profoto Lighting</p>
+                    <p class="card-meta">Spacious natural daylight studio with high ceilings, motorized backdrops, and full dressing stations.</p>
+                    <p class="card-price">Rate: $85 / hour</p>
+                    <a class="btn-primary" href="#studio-profile">5. Studio Details</a>
+                </article><!-- Studio 2 -->
+                <article class="flash-card">
+                    <img src="" alt="Urban Loft Studio">
+                    <h3 class="card-title">Urban Loft Studio</h3>
+                    <span class="badge">★ 4.8</span>
+                    <p class="card-meta">2,200 sq ft • Exposed Brick • RGB Strobes</p>
+                    <p class="card-meta">Industrial creative studio ideal for music videos, fashion editorial, and creative portrait sessions.</p>
+                    <p class="card-price">Rate: $110 / hour</p>
+                    <a class="btn-primary" href="#studio-profile">5. Studio Details</a>
+                </article>
+                
+                <article class="flash-card">
+                    <img src="" alt="Urban Loft Studio">
+                    <h3 class="card-title">Urban Loft Studio</h3>
+                    <span class="badge">★ 4.8</span>
+                    <p class="card-meta">2,200 sq ft • Exposed Brick • RGB Strobes</p>
+                    <p class="card-meta">Industrial creative studio ideal for music videos, fashion editorial, and creative portrait sessions.</p>
+                    <p class="card-price">Rate: $110 / hour</p>
+                    <a class="btn-primary" href="#studio-profile">5. Studio Details</a>
+                </article>
+            </div></div>
+        </section>
+
+        <!-- ==========================================
+             6. PACKAGES & DEALS (#7)
+             ========================================== -->
+        <section id="packages" class="container section-padding">
+            <div class="section-header">
+                <div><span class="section-subtitle">Transparent Rates</span>
+                <h2 class="section-title">7. Packages & Deals</h2>
+                <p class="card-meta">Choose a pre-packaged shoot offer or negotiate a custom session directly with creators.</p></div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Package 1 -->
+                <article class="flash-card pricing-card">
+                    <span class="badge badge-turquoise">Portrait Deal</span>
+                    <h3 class="card-title">Personal Headshots</h3>
+                    <p class="card-price">$199 / session</p>
+                    <ul class="pricing-features">
+                        <li>1 Hour Studio Session</li>
+                        <li>10 Retouched Photos</li>
+                        <li>Private Online Gallery</li>
+                    </ul>
+                    <a class="btn-primary" href="#login">Book Session</a>
+                </article>
+
+                <!-- Package 2 -->
+                <article class="flash-card pricing-card pricing-card-featured">
+                    <span class="badge badge-turquoise">Commercial</span>
+                    <h3 class="card-title">Brand & Product Shoot</h3>
+                    <p class="card-price">$499 / session</p>
+                    <ul class="pricing-features">
+                        <li>3 Hours Shoot (Indoor/Outdoor)</li>
+                        <li>35 Mastered Retouched Photos</li>
+                        <li>Commercial License Included</li>
+                    </ul>
+                    <a class="btn-primary" href="#login">Book Session</a>
+                </article>
+
+                <!-- Package 3 -->
+                <article class="flash-card pricing-card">
+                    <span class="badge badge-turquoise">Event Special</span>
+                    <h3 class="card-title">Wedding Day Special</h3>
+                    <p class="card-price">$1,299 / event</p>
+                    <ul class="pricing-features">
+                        <li>Full Day (8 Hours) Coverage</li>
+                        <li>200+ Edited Digital Photos</li>
+                        <li>Physical Photobook Album</li>
+                    </ul>
+                    <a class="btn-primary" href="#login">Book Session</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             7. AUTH CALL TO ACTION (#8 & #9)
+             ========================================== -->
+        <section class="cta-banner">
+            <h2 class="cta-title">Ready to Capture Your Next Story?</h2>
+            <p class="cta-subtitle">Create an account as a client to book sessions or join as a professional photographer/studio owner to grow your business.</p>
+            <div>
+                <a class="btn-primary" href="#signup">9. Create Free Account</a>
+                <a class="btn-outline" href="#login">8. Sign In To Account</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================
+         8. FOOTER - Full 9-Page Sitemap
+         ========================================== -->
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <a href="#home">FlashLink</a>
+                <p>Connecting clients with verified photographers and creative studios.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-col-title">Main Discovery</h4>
+                <ul class="footer-list">
+                    <li><a href="#home">1. Home Page</a></li>
+                    <li><a href="#photographers">2. Discover Photographers</a></li>
+                    <li><a href="#studios">4. Studios</a></li>
+                </ul>
+            </div><div>
+                <h4 class="footer-col-title">Services & Profiles</h4>
+                <ul class="footer-list">
+                    <li><a href="#photographer-profile">3. Photographer Profile</a></li>
+                    <li><a href="#studio-profile">5. Studio Profile</a></li>
+                    <li><a href="#categories">6. Photography Types</a></li>
+                    <li><a href="#packages">7. Packages & Deals</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-col-title">Authentication</h4>
+                <ul class="footer-list">
+                    <li><a href="#login">8. Log In</a></li>
+                    <li><a href="#signup">9. Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 FlashLink Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
