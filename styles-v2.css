@@ -103,15 +103,15 @@ header a,
   justify-content: center;
 
   /* مساحة أعلى للنص حتى لا يدخل تحت القائمة */
-  padding: 150px 6vw 80px;
+  padding: 175px 10vw 88px;
 }
 
 .hero-section::before {
-  content: ''; position: absolute; z-index: -2; inset: 0 /*calc((100vw - min(1160px, calc(100vw - 48px))) / -2);*/;
+  content: ''; position: absolute; z-index: -2; inset: 0 calc((100vw - min(1160px, calc(100vw - 48px))) / -2);
   background-image:linear-gradient(90deg, #041316 0%, rgba(4, 19, 22, .88) 34%, rgba(4, 19, 22, .20) 72%, rgba(4, 19, 22, .54) 100%),
   linear-gradient(0deg, var(--ink) 0%, transparent 25%, transparent 78%, rgba(4,19,22,.6) 100%),
   var(--hero-image);
-  background-size: cover; background-position: 76% center;
+  background-size: cover; background-position: 50% center;
 }
 .hero-section::after { content: ''; position: absolute; z-index: -1; width: 500px; height: 500px; right: -220px; bottom: -230px; border-radius: 50%; background: rgba(17, 192, 208, .14); filter: blur(65px); }
 .hero-badge, .section-subtitle { color: var(--teal-light); font-size: .73rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; }
@@ -231,7 +231,7 @@ footer { padding-top: 66px; background: #031216; }
   .brand-logo { font-size: 1.34rem; }
   .nav-auth-group { gap: 6px; }
   .nav-auth-group .btn-outline, .nav-auth-group .btn-primary { min-height: 36px; padding-inline: 10px; font-size: .71rem; }
-  .hero-section { min-height: 100; padding: 90px 16px 58px;width: 100; }
+  .hero-section { min-height: auto; padding-block: 82px 58px; }
 .hero-section::before {
   content: '';
   position: absolute;
